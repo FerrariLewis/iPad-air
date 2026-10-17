@@ -190,7 +190,7 @@
       (blocked ? '播放 M4 影片并继续重点轮播' : ((localPaused || focusPaused) ? '播放重点自动轮播' : '暂停重点自动轮播')));
     toggle.classList.toggle('is-paused', paused);
     caption.textContent = `${active + 1} / ${cards.length} · ${disabled ? '静态浏览' :
-      (blocked ? '轻点播放影片' : (localPaused ? '已暂停' : (focusPaused ? '键盘操作中' : '自动播放')))}`;
+      (blocked ? '轻点播放影片' : (localPaused ? '已暂停' : (focusPaused ? '键盘操作中' : '一起看看')))}`;
     section.classList.toggle('highlights-playing', canPlay());
     section.dataset.playback = canPlay() ? 'playing' : 'paused';
   }
