@@ -16,6 +16,7 @@
   const root = document.documentElement;
   const pendingDecodes = new Map();
   const decodedImages = new Set();
+  const presentedTimes = new Map();
   let active = imageFor.has(art.dataset.size) ? art.dataset.size : images[0].dataset.sizeImage;
   let painted = active;
   let desired = active;
@@ -119,6 +120,11 @@
     art.classList.remove('has-size-film');
     delete art.dataset.rotating;
   }
+  function frameGeometry(video) {
+    const count = Number(video.dataset.frameCount), rate = Number(video.dataset.frameRate);
+    return Number.isInteger(count) && count > 1 && Number.isFinite(rate) && rate > 0
+      ? { count, rate, last: (count - 1) / rate } : null;
+  }
   function rotate(size) {
     const video = filmFor.get(size);
     if (!video || quiet() || saveData() || !inView) { stopFilms(); return; }
@@ -127,11 +133,17 @@
     // 暂停在已经呈现的那一帧；新方向的镜头先 seek、解码，随后才覆盖它。
     let fraction = 0;
     if (previous && Number.isFinite(previous.duration) && previous.duration > 0) {
-      const progress = Math.min(1, Math.max(0, previous.currentTime / previous.duration));
+      const geometry = frameGeometry(previous);
+      const time = presentedTimes.has(previous) ? presentedTimes.get(previous) : previous.currentTime;
+      // 129 帧影片的最后一帧在 128/30 秒；duration 还包含末帧的显示时间。
+      // 用已显示的帧号映射反向影片，避免中途切向时偏移一帧。
+      const frame = geometry ? Math.min(geometry.count - 1, Math.max(0, Math.floor(time * geometry.rate + .001))) : 0;
+      const progress = geometry ? frame / (geometry.count - 1) : Math.min(1, Math.max(0, time / previous.duration));
       fraction = previous === video ? progress : 1 - progress;
     }
     retireRun();
     if (previous) { try { previous.pause(); } catch (_) {} }
+    presentedTimes.delete(video);
     prime(video);
     const now = performance.now();
     const run = { video, events: [], frame: 0, videoFrame: 0, aligned: false, playing: false,
@@ -145,8 +157,9 @@
       // 相应端帧已完成解码并在影片下面，不依赖影片停留最后一帧的浏览器差异。
       stopFilms();
     }
-    function showFrame() {
+    function showFrame(presentedTime) {
       if (!live() || quiet() || video.seeking || video.readyState < 2 || !run.playing) return;
+      if (Number.isFinite(presentedTime)) presentedTimes.set(video, presentedTime);
       run.visible = true;
       art.classList.add('has-size-film');
       paintImages(active);
@@ -156,10 +169,11 @@
     function requestDecodedFrame() {
       if (!video.requestVideoFrameCallback) return;
       try {
-        run.videoFrame = video.requestVideoFrameCallback(() => {
+        run.videoFrame = video.requestVideoFrameCallback((_, metadata) => {
           run.videoFrame = 0;
           if (!live()) return;
-          showFrame();
+          showFrame(metadata?.mediaTime);
+          requestDecodedFrame();
         });
       } catch (_) { /* timeupdate/真实时间推进仍可显示首帧。 */ }
     }
@@ -176,7 +190,10 @@
     function align() {
       if (!live() || run.aligned || video.readyState < 1 || !Number.isFinite(video.duration) || video.duration <= 0) return;
       run.aligned = true;
-      run.startTime = Math.min(Math.max(0, video.duration - .04), video.duration * fraction);
+      const geometry = frameGeometry(video);
+      run.startTime = geometry
+        ? Math.min(geometry.last, Math.round((geometry.count - 1) * fraction) / geometry.rate)
+        : Math.min(Math.max(0, video.duration - .04), video.duration * fraction);
       if (Math.abs(video.currentTime - run.startTime) > .025) {
         try { video.currentTime = run.startTime; } catch (_) { finish(); return; }
       }

@@ -10,7 +10,7 @@
 }
 .size-selector-art .size-device[data-size-image="11"] { transform: translate3d(-5%, 1%, 0) rotate(-6deg) scale(.97); }
 .size-selector-art .size-device.is-current { z-index: 1; opacity: 1; transform: translate3d(0, 0, 0) rotate(0) scale(1); }
-.size-selector-art .size-film { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; pointer-events: none; opacity: 0; z-index: 2; transition: opacity .18s ease; }
+.size-selector-art .size-film { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; pointer-events: none; opacity: 0; z-index: 2; transition: none; }
 .size-selector-art .size-film.is-visible { opacity: 1; z-index: 3; }
 .size-selector-art.has-size-film .size-device { transition: none; }
 .size-picker { display: inline-flex; align-items: center; gap: 4px; padding: 5px; margin-top: 18px; border-radius: 40px; background: #e8e8ed; max-width: 100%; }

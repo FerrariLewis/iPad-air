@@ -8,7 +8,8 @@
     const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
     const configurations = [
       { selector: '.performance-art img', rotation: 0.6, pointer: false },
-      { selector: '.size-art img', rotation: 0.45, pointer: true },
+      // 尺寸影片和静帧共享一个变换层，避免图片单独倾斜后与影片错位。
+      { selector: '.size-art .size-composition', rotation: 0.45, pointer: true },
       { selector: '.accessory-art img', rotation: 0.55, pointer: true }
     ];
     const clamp = (value, minimum, maximum) => Math.max(minimum, Math.min(maximum, value));
