@@ -1,0 +1,446 @@
+{
+  "source_page": "https://www.apple.com.cn/ipad-air/",
+  "retrieved": "2026-10-16",
+  "assets": [
+    {
+      "file": "assets/motion/hero-large.webm",
+      "source_url": "https://www.apple.com.cn/105/media/us/ipad-air/2024/df9239d9-b05f-4fc6-9f57-8ce5c168833f/anim/hero/large_2x.webm",
+      "bytes": 3716648,
+      "sha256": "91c06937da685d7e19140372f06ecf1aebaa83e0344e3958aa5039306a26be40"
+    },
+    {
+      "file": "assets/motion/hero-small.webm",
+      "source_url": "https://www.apple.com.cn/105/media/us/ipad-air/2024/df9239d9-b05f-4fc6-9f57-8ce5c168833f/anim/hero/small_2x.webm",
+      "bytes": 1920099,
+      "sha256": "547829ff8a02c8e446b149ae88ce475580d397df1c39db1aec2d5a687dd277ee"
+    },
+    {
+      "file": "assets/motion/hero-large.mov",
+      "source_url": "https://www.apple.com.cn/105/media/us/ipad-air/2024/df9239d9-b05f-4fc6-9f57-8ce5c168833f/anim/hero/large_2x.mov",
+      "bytes": 4185528,
+      "sha256": "46e4dfe99a29e3a1f7280479c7be34768142d3a52162f6ba447aa51006f91d2e",
+      "mime_type": "video/quicktime",
+      "codec": "hvc1",
+      "alpha_validation": "Original Apple asset: hvc1 single video track; hvcC contains SPS/PPS for layer IDs 0 and 1 and an alpha_channel_information SEI (payload type 165, cancel_flag=0), plus almo alpha-mode atom. No re-encoding.",
+      "alpha_profile_reference": "https://developer.apple.com/av-foundation/HEVC-Video-with-Alpha-Interoperability-Profile.pdf",
+      "container_evidence": {
+        "top_level_atoms": [
+          "ftyp",
+          "moov",
+          "wide",
+          "mdat"
+        ],
+        "ftyp_major_brand": "qt  ",
+        "ftyp_compatible_brands": [
+          "qt  "
+        ],
+        "tracks": [
+          {
+            "sample_entries": [
+              {
+                "type": "hvc1",
+                "width": 1260,
+                "height": 2108,
+                "extensions": [
+                  "hvcC",
+                  "colr",
+                  "fiel",
+                  "almo"
+                ],
+                "alpha_mode_atom_hex": "00000102",
+                "profile_idc": 1,
+                "nal_layer_ids": [
+                  0,
+                  1
+                ],
+                "parameter_set_types": [
+                  32,
+                  33,
+                  34,
+                  39
+                ],
+                "alpha_channel_information_sei": [
+                  {
+                    "payload_type": 165,
+                    "payload_hex": "10007f90",
+                    "cancel_flag": 0
+                  }
+                ]
+              }
+            ],
+            "references": [
+              {
+                "type": "tmcd",
+                "track_ids": [
+                  2
+                ]
+              }
+            ],
+            "handler": "vide"
+          },
+          {
+            "sample_entries": [
+              {
+                "type": "tmcd"
+              }
+            ],
+            "references": [],
+            "handler": "tmcd"
+          }
+        ],
+        "alpha_auxiliary_markers": []
+      }
+    },
+    {
+      "file": "assets/motion/hero-small.mov",
+      "source_url": "https://www.apple.com.cn/105/media/us/ipad-air/2024/df9239d9-b05f-4fc6-9f57-8ce5c168833f/anim/hero/small_2x.mov",
+      "bytes": 2119432,
+      "sha256": "801720749158d6e7e642d76779d3d5a6a72b633e337faaa8d7c92439b710f68f",
+      "mime_type": "video/quicktime",
+      "codec": "hvc1",
+      "alpha_validation": "Original Apple asset: hvc1 single video track; hvcC contains SPS/PPS for layer IDs 0 and 1 and an alpha_channel_information SEI (payload type 165, cancel_flag=0), plus almo alpha-mode atom. No re-encoding.",
+      "alpha_profile_reference": "https://developer.apple.com/av-foundation/HEVC-Video-with-Alpha-Interoperability-Profile.pdf",
+      "container_evidence": {
+        "top_level_atoms": [
+          "ftyp",
+          "moov",
+          "wide",
+          "mdat"
+        ],
+        "ftyp_major_brand": "qt  ",
+        "ftyp_compatible_brands": [
+          "qt  "
+        ],
+        "tracks": [
+          {
+            "sample_entries": [
+              {
+                "type": "hvc1",
+                "width": 788,
+                "height": 1472,
+                "extensions": [
+                  "hvcC",
+                  "colr",
+                  "fiel",
+                  "almo"
+                ],
+                "alpha_mode_atom_hex": "00000102",
+                "profile_idc": 1,
+                "nal_layer_ids": [
+                  0,
+                  1
+                ],
+                "parameter_set_types": [
+                  32,
+                  33,
+                  34,
+                  39
+                ],
+                "alpha_channel_information_sei": [
+                  {
+                    "payload_type": 165,
+                    "payload_hex": "10007f90",
+                    "cancel_flag": 0
+                  }
+                ]
+              }
+            ],
+            "references": [
+              {
+                "type": "tmcd",
+                "track_ids": [
+                  2
+                ]
+              }
+            ],
+            "handler": "vide"
+          },
+          {
+            "sample_entries": [
+              {
+                "type": "tmcd"
+              }
+            ],
+            "references": [],
+            "handler": "tmcd"
+          }
+        ],
+        "alpha_auxiliary_markers": []
+      }
+    },
+    {
+      "file": "assets/motion/chip-large.mp4",
+      "source_url": "https://www.apple.com.cn/105/media/ww/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/highlights-chip/large_2x.mp4",
+      "mime_type": "video/mp4",
+      "bytes": 4012418,
+      "sha256": "42c1abd72c8fef9f6922a4bdfff333aee58b9b69c101f07635098f33b551ac7a",
+      "tracks": [
+        {
+          "width": 2520.0,
+          "height": 1360.0,
+          "handler": "vide",
+          "codec": "avc1"
+        }
+      ],
+      "duration_seconds": 5.267,
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/privacy-large.mp4",
+      "source_url": "https://www.apple.com.cn/105/media/us/ipad-air/2025/e184d49a-4015-42ae-8a8b-db06bfeabd75/anim/privacy/large_2x.mp4",
+      "mime_type": "video/mp4",
+      "bytes": 207145,
+      "sha256": "870b703b14079d36d4ab305a8d2994da9aa4e084842fcda9e4ff7890ecb0d0d6",
+      "tracks": [
+        {
+          "width": 220.0,
+          "height": 308.0,
+          "handler": "vide",
+          "codec": "avc1"
+        }
+      ],
+      "duration_seconds": 2.18333,
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/chip-small.mp4",
+      "source_url": "https://www.apple.com.cn/105/media/ww/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/highlights-chip/small_2x.mp4",
+      "mime_type": "video/mp4",
+      "bytes": 1889962,
+      "sha256": "8e6c14f99412f3890e1cf7b8deb44d72d3fb546d930d0272f59b7feb1813ee09",
+      "tracks": [
+        {
+          "width": 1284.0,
+          "height": 1120.0,
+          "handler": "vide",
+          "codec": "avc1"
+        }
+      ],
+      "duration_seconds": 5.267,
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/privacy-small.mp4",
+      "source_url": "https://www.apple.com.cn/105/media/us/ipad-air/2025/e184d49a-4015-42ae-8a8b-db06bfeabd75/anim/privacy/small_2x.mp4",
+      "mime_type": "video/mp4",
+      "bytes": 156923,
+      "sha256": "0fd2cd5a5c2231d343270d197e6643226442403e4beb9ef26e1d081032d6e927",
+      "tracks": [
+        {
+          "width": 172.0,
+          "height": 240.0,
+          "handler": "vide",
+          "codec": "avc1"
+        }
+      ],
+      "duration_seconds": 2.18333,
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/keyboard-large.webm",
+      "source_url": "https://www.apple.com.cn/105/media/cn/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/magic-keyboard/large_2x.webm",
+      "bytes": 5144403,
+      "sha256": "304b25c10771eabf3426645c350711a716df52daf3168be8179dd84317269e8b",
+      "mime_type": "video/webm",
+      "codec": "vp9",
+      "container_evidence": {
+        "timecode_scale": 1000000,
+        "tracks": [
+          {
+            "codec": "V_VP9",
+            "type": 1,
+            "width": 2380,
+            "height": 3788,
+            "alpha_mode": 1
+          }
+        ],
+        "duration_ticks": 3184.0,
+        "duration_seconds": 3.184
+      },
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/keyboard-large.mov",
+      "source_url": "https://www.apple.com.cn/105/media/cn/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/magic-keyboard/large_2x.mov",
+      "bytes": 6494235,
+      "sha256": "c29cc36d841b7248cc80c858b918964633481c904ba77f1efa966d845c80c7c7",
+      "mime_type": "video/quicktime",
+      "codec": "hvc1",
+      "container_evidence": {
+        "top_level_atoms": [
+          "ftyp",
+          "moov",
+          "wide",
+          "mdat"
+        ],
+        "ftyp_major_brand": "qt  ",
+        "ftyp_compatible_brands": [
+          "qt  "
+        ],
+        "tracks": [
+          {
+            "sample_entries": [
+              {
+                "type": "hvc1",
+                "width": 2380,
+                "height": 3788,
+                "extensions": [
+                  "hvcC",
+                  "colr",
+                  "fiel",
+                  "almo"
+                ],
+                "alpha_mode_atom_hex": "00000102",
+                "profile_idc": 1,
+                "nal_layer_ids": [
+                  0,
+                  1
+                ],
+                "parameter_set_types": [
+                  32,
+                  33,
+                  34,
+                  39
+                ],
+                "alpha_channel_information_sei": [
+                  {
+                    "payload_type": 165,
+                    "payload_hex": "10007f90",
+                    "cancel_flag": 0
+                  }
+                ]
+              }
+            ],
+            "references": [
+              {
+                "type": "tmcd",
+                "track_ids": [
+                  2
+                ]
+              }
+            ],
+            "handler": "vide"
+          },
+          {
+            "sample_entries": [
+              {
+                "type": "tmcd"
+              }
+            ],
+            "references": [],
+            "handler": "tmcd"
+          }
+        ],
+        "alpha_auxiliary_markers": [],
+        "duration_seconds": 3.183333333333333
+      },
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/keyboard-small.webm",
+      "source_url": "https://www.apple.com.cn/105/media/cn/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/magic-keyboard/small_2x.webm",
+      "bytes": 2213766,
+      "sha256": "417fd9c326fd86590f1fc64440211da0298b20ac35b32461b550a6969455cdc3",
+      "mime_type": "video/webm",
+      "codec": "vp9",
+      "container_evidence": {
+        "timecode_scale": 1000000,
+        "tracks": [
+          {
+            "codec": "V_VP9",
+            "type": 1,
+            "width": 1092,
+            "height": 1748,
+            "alpha_mode": 1
+          }
+        ],
+        "duration_ticks": 3184.0,
+        "duration_seconds": 3.184
+      },
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    },
+    {
+      "file": "assets/motion/keyboard-small.mov",
+      "source_url": "https://www.apple.com.cn/105/media/cn/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/magic-keyboard/small_2x.mov",
+      "bytes": 2335324,
+      "sha256": "63ede1286ce98551107cecffec29f00d15459a7326d039799e928725523e2064",
+      "mime_type": "video/quicktime",
+      "codec": "hvc1",
+      "container_evidence": {
+        "top_level_atoms": [
+          "ftyp",
+          "moov",
+          "wide",
+          "mdat"
+        ],
+        "ftyp_major_brand": "qt  ",
+        "ftyp_compatible_brands": [
+          "qt  "
+        ],
+        "tracks": [
+          {
+            "sample_entries": [
+              {
+                "type": "hvc1",
+                "width": 1092,
+                "height": 1748,
+                "extensions": [
+                  "hvcC",
+                  "colr",
+                  "fiel",
+                  "almo"
+                ],
+                "alpha_mode_atom_hex": "00000102",
+                "profile_idc": 1,
+                "nal_layer_ids": [
+                  0,
+                  1
+                ],
+                "parameter_set_types": [
+                  32,
+                  33,
+                  34,
+                  39
+                ],
+                "alpha_channel_information_sei": [
+                  {
+                    "payload_type": 165,
+                    "payload_hex": "10007f90",
+                    "cancel_flag": 0
+                  }
+                ]
+              }
+            ],
+            "references": [
+              {
+                "type": "tmcd",
+                "track_ids": [
+                  2
+                ]
+              }
+            ],
+            "handler": "vide"
+          },
+          {
+            "sample_entries": [
+              {
+                "type": "tmcd"
+              }
+            ],
+            "references": [],
+            "handler": "tmcd"
+          }
+        ],
+        "alpha_auxiliary_markers": [],
+        "duration_seconds": 3.183333333333333
+      },
+      "source_page": "https://www.apple.com.cn/ipad-air/"
+    }
+  ],
+  "implementation": "Original local HTML/CSS/JavaScript; Apple website build files inspected as reference and not bundled.",
+  "safari_source_reference": {
+    "page": "https://www.apple.com.cn/ipad-air/",
+    "script": "https://www.apple.com.cn/v/ipad-air/ah/built/scripts/main.built.js",
+    "selection": "Official ViewportSourceOnce maps quicktime to .mov only for Safari; the page lists quicktime, webm, mp4, mov."
+  }
+}

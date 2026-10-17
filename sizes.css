@@ -1,0 +1,30 @@
+/* 两种身量：固定画布留白，不因换机型重新排版。 */
+.size-selector-art { min-width: 0; width: 100%; isolation: isolate; text-align: center; }
+.size-composition { position: relative; width: 100%; aspect-ratio: 1 / 1.18; max-height: 610px; margin-inline: auto; overflow: hidden; overflow: clip; }
+.size-selector-art .size-device {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none;
+  margin: 0; object-fit: contain; object-position: center; pointer-events: none;
+  opacity: 0; transform: translate3d(5%, 1%, 0) rotate(6deg) scale(.97);
+  transform-origin: 50% 58%;
+  transition: transform .68s cubic-bezier(.22,.7,.2,1), opacity .44s ease;
+}
+.size-selector-art .size-device[data-size-image="11"] { transform: translate3d(-5%, 1%, 0) rotate(-6deg) scale(.97); }
+.size-selector-art .size-device.is-current { z-index: 1; opacity: 1; transform: translate3d(0, 0, 0) rotate(0) scale(1); }
+.size-selector-art .size-film { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; pointer-events: none; opacity: 0; z-index: 2; transition: opacity .18s ease; }
+.size-selector-art .size-film.is-visible { opacity: 1; z-index: 3; }
+.size-selector-art.has-size-film .size-device { transition: none; }
+.size-picker { display: inline-flex; align-items: center; gap: 4px; padding: 5px; margin-top: 18px; border-radius: 40px; background: #e8e8ed; max-width: 100%; }
+.size-picker button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 92px; padding: 10px 20px; border: 0; border-radius: 30px; background: transparent; color: #4b4b52; font: inherit; font-size: 15px; font-weight: 600; white-space: nowrap; cursor: pointer; transition: color .2s ease, background-color .25s ease, box-shadow .25s ease; -webkit-tap-highlight-color: transparent; }
+.size-picker button[aria-pressed="true"] { background: #0071e3; color: #fff; box-shadow: 0 2px 8px #0071e326; }
+.size-picker button:focus-visible { outline: 3px solid #0071e3; outline-offset: 3px; }
+.size-status { min-height: 1.5em; margin-top: 13px; font-size: 13px; line-height: 1.5; color: #6e6e73; }
+.size-selector-art.is-instant .size-device, .size-selector-art.is-instant .size-film, .motion-off .size-selector-art .size-device, .motion-off .size-selector-art .size-film { transition: none; }
+.motion-off .size-picker button { transition: none; }
+@media (max-width: 700px) {
+  .size-composition { aspect-ratio: 1 / 1.13; max-height: 460px; }
+  .size-picker { margin-top: 18px; }
+  .size-picker button { min-width: 90px; padding-inline: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .size-selector-art .size-device, .size-selector-art .size-film, .size-picker button { transition: none; }
+}

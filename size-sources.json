@@ -1,0 +1,88 @@
+{
+  "source_page": "https://www.apple.com.cn/ipad-air/",
+  "retrieved": "2026-10-17",
+  "assets": [
+    {
+      "file": "assets/images/size-11.png",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/two-sizes/gallery-toggle/spin_reverse_endframe__crvqft16efue_large_2x.png",
+      "bytes": 2665449,
+      "sha256": "3400cd4d2eb3f7d689e59d6b9b7da89e21d1badbb9bc4738d7bb9ead0605858c",
+      "size": [
+        1664,
+        2224
+      ]
+    },
+    {
+      "file": "assets/images/size-13.png",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/two-sizes/gallery-toggle/spin_endframe__fz79pypve9ay_large_2x.png",
+      "bytes": 2481823,
+      "sha256": "3464e9ffab6ed4a785ec0fcd0f959530e720a6bf7962cdf657ba1f914e718985",
+      "size": [
+        1664,
+        2224
+      ]
+    },
+    {
+      "file": "assets/motion/size-11-source.webm",
+      "source_url": "https://www.apple.com.cn/105/media/cn/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/spin-reverse/large_2x.webm",
+      "bytes": 4160514,
+      "sha256": "2699d4d27298d43c360f9d64c9dea46bcd9f8e9be1650f1ca33f8ace610d4722"
+    },
+    {
+      "file": "assets/motion/size-13-source.webm",
+      "source_url": "https://www.apple.com.cn/105/media/cn/ipad-air/2026/fe27e8b5-d1fd-4e76-82a5-4ee1120a4d97/anim/spin/large_2x.webm",
+      "bytes": 4057842,
+      "sha256": "32624132930f27941179991394bb97404038a845d273abc2909c1dc0e62911b3"
+    }
+  ],
+  "derived": [
+    {
+      "file": "assets/motion/size-11.mp4",
+      "source_file": "assets/motion/size-11-source.webm",
+      "source_sha256": "2699d4d27298d43c360f9d64c9dea46bcd9f8e9be1650f1ca33f8ace610d4722",
+      "sha256": "857221ff07f638f04995c38269b695be7e2904fd521d416a9d7b76676767bc75",
+      "bytes": 1764430,
+      "width": 720,
+      "height": 964,
+      "encoding": "H.264 Main 3.1, yuv420p, 30fps, no audio, faststart",
+      "processing": "Official spin animation composited over the size section #fafafa background and proportionally resized. Full duration and frame order retained.",
+      "validation": "Full H.264 decode passed."
+    },
+    {
+      "file": "assets/motion/size-13.mp4",
+      "source_file": "assets/motion/size-13-source.webm",
+      "source_sha256": "32624132930f27941179991394bb97404038a845d273abc2909c1dc0e62911b3",
+      "sha256": "4f57970dd1e83b93330903183249b8eb8747ad98c158c5a46a313692e76480c1",
+      "bytes": 1791360,
+      "width": 720,
+      "height": 964,
+      "encoding": "H.264 Main 3.1, yuv420p, 30fps, no audio, faststart",
+      "processing": "Official spin animation composited over the size section #fafafa background and proportionally resized. Full duration and frame order retained.",
+      "validation": "Full H.264 decode passed."
+    },
+    {
+      "file": "assets/images/size-11.webp",
+      "source_file": "assets/images/size-11.png",
+      "source_sha256": "3400cd4d2eb3f7d689e59d6b9b7da89e21d1badbb9bc4738d7bb9ead0605858c",
+      "sha256": "74023c08415643c2a9f55e050a7988ecb7a0d03eede39f7c74e874b2dd8b01d5",
+      "bytes": 150404,
+      "size": [
+        1000,
+        1337
+      ],
+      "processing": "Proportionally resized to width 1000 and converted to WebP quality 90; original full canvas retained without cropping."
+    },
+    {
+      "file": "assets/images/size-13.webp",
+      "source_file": "assets/images/size-13.png",
+      "source_sha256": "3464e9ffab6ed4a785ec0fcd0f959530e720a6bf7962cdf657ba1f914e718985",
+      "sha256": "9db3b9c2eeae25d9ade9f717f548856a62991e193d2cc30dd31ca23061d183b0",
+      "bytes": 188494,
+      "size": [
+        1000,
+        1337
+      ],
+      "processing": "Proportionally resized to width 1000 and converted to WebP quality 90; original full canvas retained without cropping."
+    }
+  ]
+}

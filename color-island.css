@@ -1,0 +1,147 @@
+/* 定睛细看：小球展开的颜色灵动岛；不裁切按钮或键盘焦点。 */
+.color-controls.color-island {
+  --island-height: 84px;
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: repeat(var(--color-count, 5), minmax(0, 1fr));
+  gap: 4px;
+  width: min(100%, 386px);
+  min-height: var(--island-height);
+  margin: 20px auto 0;
+  padding: 6px;
+  overflow: visible;
+  border-radius: 999px;
+}
+.color-island::before,
+.color-island::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  border-radius: 999px;
+}
+.color-island::before {
+  z-index: -2;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  background: #f2f2f5;
+  box-shadow: inset 0 0 0 1px #00000005, 0 4px 16px #22224008;
+  transition: width .74s cubic-bezier(.22, 1, .36, 1);
+}
+.color-island::after {
+  z-index: -1;
+  left: var(--selection-left, 6px);
+  top: var(--selection-top, 6px);
+  width: var(--selection-width, calc((100% - 28px) / 5));
+  height: var(--selection-height, 72px);
+  background: #fff;
+  box-shadow: 0 2px 7px #23233f12, inset 0 0 0 1px #a996d120;
+  transition: left .42s cubic-bezier(.22, 1, .36, 1),
+    top .42s cubic-bezier(.22, 1, .36, 1),
+    width .42s cubic-bezier(.22, 1, .36, 1), opacity .25s;
+}
+.color-island .color-button {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-width: 0;
+  min-height: 72px;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 2px;
+  border-radius: 999px;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity .3s, transform .5s cubic-bezier(.22, 1, .36, 1);
+}
+.color-island .color-button > span:first-child {
+  width: 25px;
+  height: 25px;
+  flex: 0 0 25px;
+  box-shadow: inset 0 1px 3px #00000024;
+}
+.color-island .color-all > span:first-child {
+  background: conic-gradient(#a9c7d9 0deg 90deg, #c7bfd9 90deg 180deg,
+    #e7dfd2 180deg 270deg, #777980 270deg 360deg);
+}
+.color-island .color-button > span:first-child::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 1.5px solid transparent;
+  border-radius: 50%;
+  transition: border-color .3s, transform .35s cubic-bezier(.22, 1, .36, 1);
+  transform: scale(.88);
+}
+.color-island .color-button[aria-pressed="true"] > span:first-child::after {
+  inset: -4px;
+  border: 1.5px solid #7650bf;
+  transform: scale(1);
+}
+.color-island .color-name {
+  color: #6a6a73;
+  font-size: 11px;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: color .25s;
+}
+.color-island .color-button[aria-pressed="true"] .color-name { color: #1d1d1f; }
+.color-island .color-button:focus-visible {
+  outline: 3px solid #7650bf;
+  outline-offset: 3px;
+}
+.color-island.island-pending::before { width: var(--island-height); }
+.color-island.island-pending::after { opacity: 0; }
+.color-island.island-pending .color-button {
+  opacity: 0;
+  transform: translateY(5px) scale(.88);
+}
+.color-island.island-entered .color-button {
+  transition-delay: calc(.14s + var(--swatch-order, 0) * .065s);
+}
+.color-island.island-entered::after { transition-delay: 0s, 0s, 0s, .22s; }
+/* 即使脚本/观察器尚未响应，Tab 到达时也立即呈现焦点及完整选项。 */
+.color-island.island-pending:focus-within::before { width: 100%; transition: none; }
+.color-island.island-pending:focus-within::after { opacity: 1; transition: none; }
+.color-island.island-pending:focus-within .color-button {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+/* focusin 会同步解除 pending；完整形态同样取消选项淡入延迟。 */
+.color-island:focus-within::before { width: 100%; transition: none; }
+.color-island:focus-within .color-button {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+@media (max-width: 600px) {
+  .color-controls.color-island { margin-top: 16px; }
+  .color-island .color-name { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .color-island::before { width: 100% !important; }
+  .color-island::after,
+  .color-island .color-button { opacity: 1 !important; }
+  .color-island::before,
+  .color-island::after,
+  .color-island .color-button,
+  .color-island .color-button > span:first-child::after {
+    transform: none !important;
+    transition: none !important;
+  }
+  .color-island::before { transform: translateX(-50%) !important; }
+}
+.motion-off .color-island::before { width: 100% !important; }
+.motion-off .color-island::after,
+.motion-off .color-island .color-button { opacity: 1 !important; }
+.motion-off .color-island::before,
+.motion-off .color-island::after,
+.motion-off .color-island .color-button,
+.motion-off .color-island .color-button > span:first-child::after { transition: none !important; }
+.motion-off .color-island .color-button { transform: none !important; }

@@ -1,0 +1,695 @@
+{
+  "retrieved": "2026-10-17",
+  "credit": "Product photography © Apple. Downloaded from Apple China; inclusion does not grant a separate image license.",
+  "images": [
+    {
+      "file": "assets/images/hero.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/hero/hero_endframe__6gl84bccyaqi_large_2x.png",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1260,
+        2108
+      ],
+      "local_size": [
+        975,
+        1215
+      ],
+      "source_sha256": "3753d4f355ff40b71464d857bbb76defdb19ae013f2a7cd6646263215c407d72",
+      "processing": "Resized and converted to WebP; image content unchanged. Transparent outer whitespace cropped."
+    },
+    {
+      "file": "assets/images/hero-mobile.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/hero/hero_endframe__6gl84bccyaqi_small_2x.png",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        788,
+        1472
+      ],
+      "local_size": [
+        611,
+        762
+      ],
+      "source_sha256": "0b264e5d3100dff7a4fcede516a32244aa5e4aedb7a9401734defa3290763c27",
+      "processing": "Resized and converted to WebP; image content unchanged. Transparent outer whitespace cropped."
+    },
+    {
+      "file": "assets/images/color-blue.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/blue/slide_1A__u8zw91uc6iaq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        2000,
+        1079
+      ],
+      "source_sha256": "4b6f5496ac25bc7d37d5712cb83b3784a3ab44cbca2e7926482094015a15045b",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/color-purple.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/purple/slide_1A__u8zw91uc6iaq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        2000,
+        1079
+      ],
+      "source_sha256": "a90fdf3ac3c7dfb28de2438ef5c20d71aac557df84a665e4052895915452eb47",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/color-starlight.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/starlight/slide_1A__u8zw91uc6iaq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        2000,
+        1079
+      ],
+      "source_sha256": "be44e7b0506393e7b7e8ad060fcd47587abfeaa48be30c4b538a56e756d05968",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/color-gray.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/space-gray/slide_1A__u8zw91uc6iaq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        2000,
+        1079
+      ],
+      "source_sha256": "2b9bd2e921e7e45d4abbb144c46ae5289a193dfa312eb0afd75b38436f1d29b3",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/display.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/ipados/modal/photos__c61ov9e6aec2_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1260,
+        1642
+      ],
+      "local_size": [
+        1260,
+        1642
+      ],
+      "source_sha256": "6ba6d8d0356d1185eca955bf07a64e60823efd0487a94f3f425e6c69e3f5e802",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/performance.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/chip/chip_top_endframe__bac7em7optua_large_2x.png",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2112,
+        1660
+      ],
+      "local_size": [
+        1909,
+        1293
+      ],
+      "source_sha256": "5944982047799d9457450438700f64db1f3b7e1c619fe3b5931df506c57adc2f",
+      "processing": "Resized and converted to WebP; image content unchanged. Transparent outer whitespace cropped."
+    },
+    {
+      "file": "assets/images/keyboard.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/keyboard/magic_keyboard_endframe__gbalczm8nfee_large_2x.png",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2380,
+        3788
+      ],
+      "local_size": [
+        1021,
+        1197
+      ],
+      "source_sha256": "f8621be603d7c5c0c2a7bfb82847b436ec85b95be69d59a00029ba1f4748091e",
+      "processing": "Resized and converted to WebP; image content unchanged. Transparent outer whitespace cropped."
+    },
+    {
+      "file": "assets/images/pencil.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/pencil__ewqbd065n4ya_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        2000,
+        1079
+      ],
+      "source_sha256": "89d83e187e8f2c174cdf66b73ba1bf9200b7ca66fdb7dad69c6d45745a244fb3",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/sizes.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/two-sizes/gallery-toggle/spin_endframe__fz79pypve9ay_large_2x.png",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1664,
+        2224
+      ],
+      "local_size": [
+        1124,
+        1579
+      ],
+      "source_sha256": "3464e9ffab6ed4a785ec0fcd0f959530e720a6bf7962cdf657ba1f914e718985",
+      "processing": "Resized and converted to WebP; image content unchanged. Transparent outer whitespace cropped."
+    },
+    {
+      "file": "assets/images/detail.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/blue/slide_3A__e9d8j4i6akii_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "49db7384968bdfb9b92798a235a568b8e93eb7f87d8c13414352c635f5608258",
+      "processing": "Resized and converted to WebP; image content unchanged."
+    },
+    {
+      "file": "assets/images/ipados-starlight.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/ipados/ipad_air_starlight__bsd3afgeoij6_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1218,
+        1308
+      ],
+      "local_size": [
+        1218,
+        1308
+      ],
+      "source_sha256": "1cf5f9c4770af04e9b86f4416895398e17499c8c26a55bed90c829c7bb243da8",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/ipados-purple.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/ipados/ipad_air_purple__f8mkphpzreq2_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1268,
+        1386
+      ],
+      "local_size": [
+        1268,
+        1386
+      ],
+      "source_sha256": "b0aa85c2bceabd379ce0bf83bbb73904ba6081b3d85b499f1ad1bde4a3abce6b",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/ipados-blue.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/ipados/ipad_air_blue__btrcc5x4t6j6_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1680,
+        1704
+      ],
+      "local_size": [
+        1680,
+        1704
+      ],
+      "source_sha256": "351331e5b2df07b82308b6f528a778f3146e1c58a751a82bf75abd0730bc72b2",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/intelligence.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/apple-intelligence/privacy_endframe__cmahnib2pzxy_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        220,
+        308
+      ],
+      "local_size": [
+        220,
+        308
+      ],
+      "source_sha256": "7ac2c7c1f2cf9c27d15f2251cbf58fcf0e20c25954a0c5111576835bb96a27b6",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/highlight-apps.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/ipados__fsyro8hghueu_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        1800,
+        971
+      ],
+      "source_sha256": "2230853963746604073699b568aa4f9528a5c9877e0822b1b0c1f260b766be7e",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/highlight-sizes.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/sizes__gbjdxwtfmp6q_large_2x.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1200,
+        1064
+      ],
+      "local_size": [
+        1200,
+        1064
+      ],
+      "source_sha256": "71446c21543a15f1ae1ea3a5c83f74f8c63c099c6119bcc2dbf15c666b2d1ead",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/highlight-chip.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/anim/highlights_chip_static__r572qidazrma_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        2520,
+        1360
+      ],
+      "local_size": [
+        1800,
+        971
+      ],
+      "source_sha256": "91e2ed6a595ac1ef575dc4a9433e84e395ed4197a380d5bdc05aaabeec049d39",
+      "processing": "Proportionally resized to a maximum width of 1800 pixels and converted to WebP at quality 86; original framing retained without cropping."
+    },
+    {
+      "file": "assets/images/color-blue-angle-2.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/blue/slide_2A__p74br7miwoiq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "bb3e48d2088a83ce33e1dc7fb1efe041ed93d10c7676666dedd67d036b993196",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-purple-angle-2.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/purple/slide_2A__p74br7miwoiq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "9f206f04ec09df982cc232b1f6631cec0980704942aab407f8b743ae896e50be",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-starlight-angle-2.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/starlight/slide_2A__p74br7miwoiq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "803aa729306fd64da7c5e8bdf50eab25a9010d8b5bfd2766c8b88507333f9c6c",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-gray-angle-2.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/space-gray/slide_2A__p74br7miwoiq_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "e0ad64bf55be016517fa6eeee821006e514ad036afed5725f0246ddab9e4520d",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-blue-angle-3.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/blue/slide_3A__e9d8j4i6akii_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "49db7384968bdfb9b92798a235a568b8e93eb7f87d8c13414352c635f5608258",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-purple-angle-3.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/purple/slide_3A__e9d8j4i6akii_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "9375c366a545d32afc8e09dbdf4a5c1f44b261b23779b42ed4366792df57253d",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-starlight-angle-3.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/starlight/slide_3A__e9d8j4i6akii_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "890a5be2ca1f468292ad14da3c4a3804c9aff11f5d7d479bfc5cfeb9c99cc3b2",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/color-gray-angle-3.webp",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/space-gray/slide_3A__e9d8j4i6akii_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        820,
+        1360
+      ],
+      "local_size": [
+        820,
+        1360
+      ],
+      "source_sha256": "7c60e2f70279f98fda808c2ebda9a9c4e08dbc81cbeec2c37a642c86c38b3ddc",
+      "processing": "Proportionally resized to a maximum width of 1600 pixels and converted to WebP at quality 86; original framing and product color retained without cropping."
+    },
+    {
+      "file": "assets/images/chip-start-large.jpg",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/anim/highlights_chip_startframe__ftxm690kp066_large_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 266181,
+      "sha256": "5ee5b32557bf4d028a9cd76f485fa16f3967fc712e610c9387d56f3bd6d694f0",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        2520,
+        1360
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/privacy-start-large.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/apple-intelligence/privacy_startframe__b524gvppq9ci_large_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 9024,
+      "sha256": "200a2c8ba2c5a3b3f1347590c183f6706ac4689878c022fe8f1fac3fc6537f4c",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        220,
+        308
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/chip-end-large.jpg",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/anim/highlights_chip_endframe__wyb8kl53b2ae_large_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 54431,
+      "sha256": "ba88db53dc49c6d3b8c11b675831d92482c4c3bad2cfc4c48586ac671b930cf9",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        2520,
+        1360
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/privacy-end-large.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/apple-intelligence/privacy_endframe__cmahnib2pzxy_large_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 8578,
+      "sha256": "7ac2c7c1f2cf9c27d15f2251cbf58fcf0e20c25954a0c5111576835bb96a27b6",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        220,
+        308
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/chip-start-small.jpg",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/anim/highlights_chip_startframe__ftxm690kp066_small_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 120949,
+      "sha256": "5c57ae5dcdb274e906b952aa9f70ffdd926c7801b8a81b55838aab0254de20c1",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        1284,
+        1120
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/privacy-start-small.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/apple-intelligence/privacy_startframe__b524gvppq9ci_small_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 6899,
+      "sha256": "2a07f88300b6499358f296ffb059512d21cced866153579bf2f49fcf03e1b352",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        172,
+        240
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/chip-end-small.jpg",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/highlights/anim/highlights_chip_endframe__wyb8kl53b2ae_small_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 27753,
+      "sha256": "26828cad5abdbb79a4afc6b281f428892facc10668ac300581b5af570788d92d",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        1284,
+        1120
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/privacy-end-small.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/apple-intelligence/privacy_endframe__cmahnib2pzxy_small_2x.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 6544,
+      "sha256": "c6ffd6ef48c51d263e8843151ce9f0630d59bc96bfcce1f1661c85c76079593e",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        172,
+        240
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/keyboard-startframe-large.png",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/keyboard/magic_keyboard_startframe__d47xcataxlsi_large_2x.png",
+      "bytes": 2466888,
+      "sha256": "44dfb9b500b6512db20d3a9d206e9edf7ea2ca0614ae330ac8701ee68f1f6a46",
+      "dimensions": [
+        2380,
+        3788
+      ],
+      "mode": "RGBA",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        2380,
+        3788
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/keyboard-startframe-small.png",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/keyboard/magic_keyboard_startframe__d47xcataxlsi_small_2x.png",
+      "bytes": 602715,
+      "sha256": "86d4e77446dfc7108b2de8d02e5abc18071e6182e1635eeb852146e3cacc01a8",
+      "dimensions": [
+        1092,
+        1748
+      ],
+      "mode": "RGBA",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        1092,
+        1748
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/keyboard-endframe-large.png",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/keyboard/magic_keyboard_endframe__gbalczm8nfee_large_2x.png",
+      "bytes": 2693873,
+      "sha256": "f8621be603d7c5c0c2a7bfb82847b436ec85b95be69d59a00029ba1f4748091e",
+      "dimensions": [
+        2380,
+        3788
+      ],
+      "mode": "RGBA",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        2380,
+        3788
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/keyboard-endframe-small.png",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/keyboard/magic_keyboard_endframe__gbalczm8nfee_small_2x.png",
+      "bytes": 672576,
+      "sha256": "348cf6ff480adf6eb38b84e38adbb2ade4a644d82267cf3a49e78245d28c1605",
+      "dimensions": [
+        1092,
+        1748
+      ],
+      "mode": "RGBA",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "local_size": [
+        1092,
+        1748
+      ],
+      "processing": "Original official image; no re-encoding or compositing."
+    },
+    {
+      "file": "assets/images/color-blue-back.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/blue/slide_2B__dvqfqwnkj2c2_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "bytes": 43206,
+      "sha256": "f8ecf5aacd6b3760e775a7fc9984f1d91a1d0c97c702b102ce85902bfabcdfcf",
+      "local_size": [
+        1660,
+        1360
+      ],
+      "processing": "Original official rear-view photograph; no modification."
+    },
+    {
+      "file": "assets/images/color-purple-back.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/purple/slide_2B__dvqfqwnkj2c2_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "bytes": 41327,
+      "sha256": "8ebc517d05bb5e4b08b088e02e77256ca291fbd231b983cece01f60a149c66b6",
+      "local_size": [
+        1660,
+        1360
+      ],
+      "processing": "Original official rear-view photograph; no modification."
+    },
+    {
+      "file": "assets/images/color-starlight-back.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/starlight/slide_2B__dvqfqwnkj2c2_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "bytes": 41716,
+      "sha256": "cf38e22253f9ad0f39fdacc888d8aba903ba90908e749a8fe4dc02732ebc07e6",
+      "local_size": [
+        1660,
+        1360
+      ],
+      "processing": "Original official rear-view photograph; no modification."
+    },
+    {
+      "file": "assets/images/color-gray-back.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/space-gray/slide_2B__dvqfqwnkj2c2_large_2x.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "bytes": 42157,
+      "sha256": "827af1e046fd2476b3a09f7d0254602db7401af15b5f19d8813e8db39223cb8d",
+      "local_size": [
+        1660,
+        1360
+      ],
+      "processing": "Original official rear-view photograph; no modification."
+    },
+    {
+      "file": "assets/images/color-all.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/all-colors/slide_1A__u8zw91uc6iaq_large.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        1260,
+        680
+      ],
+      "local_size": [
+        1260,
+        680
+      ],
+      "bytes": 116479,
+      "sha256": "f5b8220ce27f82b57aa30399d5214e11f4d6ad1e458f8a0ae77fa08d16f5e9d8",
+      "processing": "Unmodified official image."
+    },
+    {
+      "file": "assets/images/color-all-angle-2.webp",
+      "source_url": "https://www.apple.com.cn/ipad-air/images/overview/closer-look/all-colors/slide_2A__p74br7miwoiq_large.webp",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        414,
+        680
+      ],
+      "local_size": [
+        414,
+        680
+      ],
+      "bytes": 31500,
+      "sha256": "597b2193bf82213f4cf7117c544506a907d0cd0c4f17b132b08ebac5239fbbf9",
+      "processing": "Unmodified official image."
+    },
+    {
+      "file": "assets/images/color-all-angle-3.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/all-colors/slide_3A__e9d8j4i6akii_large.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        410,
+        680
+      ],
+      "local_size": [
+        410,
+        680
+      ],
+      "bytes": 14835,
+      "sha256": "a14b70739cd4020549cae89bbc2c75f926dacc77480ab1fc24f0af07484549dd",
+      "processing": "Unmodified official image."
+    },
+    {
+      "file": "assets/images/color-all-back.jpg",
+      "source_url": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/closer-look/all-colors/slide_2B__dvqfqwnkj2c2_large.jpg",
+      "source_page": "https://www.apple.com.cn/ipad-air/",
+      "original_size": [
+        830,
+        680
+      ],
+      "local_size": [
+        830,
+        680
+      ],
+      "bytes": 105555,
+      "sha256": "cb2449271bbe62898c9d01d45dbff038268af2cedb2483372ec94c399df05f5e",
+      "processing": "Unmodified official image."
+    }
+  ]
+}

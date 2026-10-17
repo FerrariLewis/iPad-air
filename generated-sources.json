@@ -1,0 +1,19 @@
+{
+  "generated_assets": [
+    {
+      "file": "assets/images/pencil-landscape.webp",
+      "type": "AI-generated compositing illustration",
+      "tool": "built-in image_gen",
+      "selected_concept": "中国风山水 / 一笔山海",
+      "source_png": "02-mountain-sea.png",
+      "source_sha256": "1d09b6881675765611bfece8ca108664b2f618ced82c434c29857312adb22212",
+      "size": [
+        1536,
+        1024
+      ],
+      "reference_page": "https://www.apple.com.cn/ipad-air/",
+      "reference_image": "https://www.apple.com.cn/v/ipad-air/ah/images/overview/apple-pencil-pro/art__dafqwifi29iu_large_2x.jpg",
+      "notes": "User-selected AI illustration; not an official Apple landscape image. Converted to WebP without changing composition."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+/* XR 首页：独立蓝色胶囊与蓝色重播球，布局占位固定，不推挤正文。 */
+.hero .hero-island {
+  --hero-control-size: 54px;
+  gap: 8px;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  clip-path: none;
+}
+.hero .hero-island > .button {
+  min-height: var(--hero-control-size);
+  padding: 14px 25px;
+  background: #0071e3;
+  box-shadow: 0 8px 22px #075c931a;
+}
+.hero .hero-island > .button:hover { background: #0077ed; }
+.hero .hero-island > .hero-replay {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 var(--hero-control-size);
+  width: var(--hero-control-size);
+  height: var(--hero-control-size);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: #fff;
+  background: #0071e3;
+  box-shadow: 0 8px 22px #075c931a;
+  transform-origin: center;
+  transition: background .2s ease, box-shadow .2s ease;
+}
+.hero-replay svg { display: block; width: 23px; height: 23px; pointer-events: none; }
+.hero .hero-island > .hero-replay:hover { background: #0077ed; box-shadow: 0 8px 24px #075c9330; }
+.hero .hero-island > .hero-replay:active { background: #0067d0; }
+.hero .hero-island > .hero-replay:disabled { opacity: .48; cursor: default; }
+.hero .hero-island > .hero-replay:focus-visible { outline-color: #0071e3; outline-offset: 5px; }
+
+/* 从蓝球展开胶囊时，蓝球从胶囊右侧轻轻分离；两颗控件有独立轮廓。 */
+.js .hero.is-entering .hero-island { animation: none; transform: none; clip-path: none; }
+.js .hero.is-entering .hero-island > * { animation: none; }
+.js .hero.is-entering .hero-island > .button {
+  animation: hero-cta-unfold .95s cubic-bezier(.2,.8,.25,1) .18s both;
+}
+.js .hero.is-entering .hero-island > .hero-replay {
+  animation: hero-orb-separate .85s cubic-bezier(.2,.8,.25,1) .25s both;
+}
+/* 重播时焦点仍在同一颗球上，它不会被透明度、裁切或 display 变化藏起。 */
+.js .hero.is-entering .hero-island > .hero-replay:focus,
+.js .hero.is-entering .hero-island > .button:focus {
+  animation: none;
+  opacity: 1;
+  transform: none;
+  clip-path: none;
+}
+@keyframes hero-cta-unfold {
+  0% { clip-path: inset(0 calc(50% - var(--hero-control-size) / 2) round 999px); transform: translateY(5px) scale(.94); }
+  22% { clip-path: inset(0 calc(50% - var(--hero-control-size) / 2) round 999px); transform: translateY(0) scale(1); }
+  100% { clip-path: inset(0 0 round 999px); transform: translateY(0) scale(1); }
+}
+@keyframes hero-orb-separate {
+  0% { opacity: 0; transform: translate3d(-24px,5px,0) scale(.78); }
+  24% { opacity: 1; transform: translate3d(-14px,0,0) scale(.9); }
+  100% { opacity: 1; transform: translate3d(0,0,0) scale(1); }
+}
+@media (max-width: 700px) {
+  .hero .hero-island { --hero-control-size: 52px; gap: 7px; padding: 0; }
+  .hero .hero-island > .button { padding-inline: 23px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero .hero-island, .hero .hero-island > * { animation: none !important; transform: none !important; clip-path: none !important; }
+}
+.motion-off .hero .hero-island, .motion-off .hero .hero-island > * {
+  animation: none !important;
+  transform: none !important;
+  clip-path: none !important;
+}

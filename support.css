@@ -1,0 +1,24 @@
+/* XR：紫色支持胶囊与用户图片弹窗。 */
+.verdict .verdict-actions { flex-direction: column; gap: 23px; }
+.button-purple { background: #7c3fe0; color: #fff; border: 0; cursor: pointer; border-radius: 999px; min-height: 52px; padding: 14px 27px; font: inherit; font-size: 15px; font-weight: 600; transition: background .2s, transform .25s, box-shadow .25s; box-shadow: 0 8px 24px #7c3fe024; }
+.button-purple:hover { background: #8950e6; transform: translateY(-2px); box-shadow: 0 10px 28px #7c3fe033; }
+.button-purple:focus-visible, .support-close:focus-visible { outline: 3px solid #a175ef; outline-offset: 5px; }
+.support-is-open, .support-is-open body { overflow: hidden; }
+.support-dialog { position: fixed; inset: 0; z-index: 10000; box-sizing: border-box; width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: max(24px,env(safe-area-inset-top)) max(18px,env(safe-area-inset-right)) max(24px,env(safe-area-inset-bottom)) max(18px,env(safe-area-inset-left)); border: 0; color: #1d1d1f; background: transparent; overflow: auto; overscroll-behavior: contain; }
+.support-dialog:not([open]) { display: none; }
+.support-dialog[open] { display: grid; place-items: center; }
+.support-dialog.is-fallback[open] { background: #15101b75; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+.support-dialog::backdrop { background: #15101b75; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); animation: support-backdrop-in .35s ease both; }
+.support-panel { position: relative; width: min(100%,420px,calc((100 * var(--viewport-unit) - 48px) * .73665)); margin: auto; border-radius: 24px; box-shadow: 0 28px 100px #0005; animation: support-panel-in .48s cubic-bezier(.18,.8,.24,1) both; }
+.support-image { display: block; width: 100%; height: auto; max-height: none; border-radius: inherit; }
+.support-close { position: absolute; top: max(14px,env(safe-area-inset-top)); right: max(14px,env(safe-area-inset-right)); display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; background: #f5f5f7e8; color: #333; cursor: pointer; box-shadow: 0 2px 12px #0002; -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+.support-close svg { width: 18px; height: 18px; pointer-events: none; }
+.support-dialog.is-closing .support-panel { animation: support-panel-out .22s ease both; }
+.support-dialog.is-closing::backdrop { animation: support-backdrop-out .22s ease both; }
+@keyframes support-panel-in { from { opacity: 0; transform: translateY(24px) scale(.92); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes support-panel-out { to { opacity: 0; transform: translateY(12px) scale(.96); } }
+@keyframes support-backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes support-backdrop-out { to { opacity: 0; } }
+.motion-off .support-panel, .motion-off .support-dialog::backdrop { animation: none; }
+@media (prefers-reduced-motion: reduce) { .support-panel, .support-dialog::backdrop { animation: none !important; } .button-purple { transition: none; } }
+@media (max-width: 700px) { .support-panel { border-radius: 20px; } }

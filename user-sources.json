@@ -1,0 +1,16 @@
+{
+  "assets": [
+    {
+      "file": "assets/images/support-wechat.jpg",
+      "source": "User-provided image",
+      "original_name": "8251de785afba02eab7a4d85fe59045d.jpg",
+      "size": [
+        828,
+        1124
+      ],
+      "bytes": 75795,
+      "sha256": "6c75cc9bae5373966a3f2e46f8a1f406b714298a91d252293540a079f0d16cfc",
+      "processing": "Copied without changes; QR content not decoded or modified."
+    }
+  ]
+}
